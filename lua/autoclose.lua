@@ -19,7 +19,7 @@ M.config = {
 }
 
 -- Setup function to configure the plugin
-unction M.setup(opts)
+function M.setup(opts)
   opts = opts or {}
   M.config.pairs = opts.pairs or default_pairs
   M.config.enabled = opts.enabled ~= false
